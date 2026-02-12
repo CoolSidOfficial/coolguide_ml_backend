@@ -29,3 +29,6 @@ class FilterRequest(BaseModel):
 def recommend_products(request: FilterRequest):
     results = recommender.recommend(request.filters)
     return {"recommendations": results}
+@app.get("/")
+def root():
+    return {"message": "Website is live"}
