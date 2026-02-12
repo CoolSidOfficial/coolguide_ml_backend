@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Philips 1000i",
+    "category": "air-purifier",
+    "By-Size": "Small Room",
+    "By-Concern": "Allergies",
+    "Budget-Range": "4k-8k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Compact",
+    "Machine-Brand": "Philips",
+    "Warranty": "2 Year"
+  },
+  {
+    "id": 2,
+    "name": "Dyson Pure Cool TP07",
+    "category": "air-purifier",
+    "By-Size": "Large Room",
+    "By-Concern": "All of the above",
+    "Budget-Range": "16k Above",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Tower",
+    "Machine-Brand": "Dyson",
+    "Warranty": "5 Year"
+  },
+  {
+    "id": 3,
+    "name": "Sharp FP-J60M",
+    "category": "air-purifier",
+    "By-Size": "Medium Room",
+    "By-Concern": "Pollution",
+    "Budget-Range": "8k-16k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Tower",
+    "Machine-Brand": "Sharp",
+    "Warranty": "2 Year"
+  },
+  {
+    "id": 4,
+    "name": "Philips GoPure Car",
+    "category": "air-purifier",
+    "By-Size": "Car/Portable",
+    "By-Concern": "Smell",
+    "Budget-Range": "1k-4k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Compact",
+    "Machine-Brand": "Philips",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 5,
+    "name": "Dyson Pure Hot+Cool",
+    "category": "air-purifier",
+    "By-Size": "Large Room",
+    "By-Concern": "Pet",
+    "Budget-Range": "16k Above",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Tower",
+    "Machine-Brand": "Dyson",
+    "Warranty": "5 Year"
+  },
+  {
+    "id": 6,
+    "name": "Sharp Portable Mini",
+    "category": "air-purifier",
+    "By-Size": "Small Room",
+    "By-Concern": "Pollution",
+    "Budget-Range": "4k-8k",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Compact",
+    "Machine-Brand": "Sharp",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 7,
+    "name": "Philips 2000i Series",
+    "category": "air-purifier",
+    "By-Size": "Medium Room",
+    "By-Concern": "Allergies",
+    "Budget-Range": "8k-16k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Tower",
+    "Machine-Brand": "Philips",
+    "Warranty": "2 Year"
+  },
+  {
+    "id": 8,
+    "name": "Sharp Pet Care Pro",
+    "category": "air-purifier",
+    "By-Size": "Medium Room",
+    "By-Concern": "Pet",
+    "Budget-Range": "8k-16k",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Tower",
+    "Machine-Brand": "Sharp",
+    "Warranty": "2 Year"
+  },
+  {
+    "id": 9,
+    "name": "Dyson Compact Mini",
+    "category": "air-purifier",
+    "By-Size": "Small Room",
+    "By-Concern": "All of the above",
+    "Budget-Range": "8k-16k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Compact",
+    "Machine-Brand": "Dyson",
+    "Warranty": "2 Year"
+  },
+  {
+    "id": 10,
+    "name": "Philips Budget Basic",
+    "category": "air-purifier",
+    "By-Size": "Small Room",
+    "By-Concern": "Pollution",
+    "Budget-Range": "1k-4k",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Compact",
+    "Machine-Brand": "Philips",
+    "Warranty": "1 Year"
+  }
+]
