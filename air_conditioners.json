@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "LG Dual Inverter 1 Ton",
+    "category": "air-conditioner",
+    "By-Size": "Small Room",
+    "By-Concern": "Energy Saving",
+    "Budget-Range": "25k-35k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Split",
+    "Machine-Brand": "LG",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 2,
+    "name": "Daikin 1.5 Ton Inverter",
+    "category": "air-conditioner",
+    "By-Size": "Medium Room",
+    "By-Concern": "Cooling Efficiency",
+    "Budget-Range": "35k-50k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Split",
+    "Machine-Brand": "Daikin",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 3,
+    "name": "Voltas 2 Ton Adjustable",
+    "category": "air-conditioner",
+    "By-Size": "Large Room",
+    "By-Concern": "Fast Cooling",
+    "Budget-Range": "50k Above",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Split",
+    "Machine-Brand": "Voltas",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 4,
+    "name": "Blue Star Window 1 Ton",
+    "category": "air-conditioner",
+    "By-Size": "Small Room",
+    "By-Concern": "Budget",
+    "Budget-Range": "20k-30k",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Window",
+    "Machine-Brand": "Blue Star",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 5,
+    "name": "Samsung WindFree 1.5 Ton",
+    "category": "air-conditioner",
+    "By-Size": "Medium Room",
+    "By-Concern": "Silent Cooling",
+    "Budget-Range": "40k-55k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Split",
+    "Machine-Brand": "Samsung",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 6,
+    "name": "Hitachi Heavy Duty 1.5 Ton",
+    "category": "air-conditioner",
+    "By-Size": "Medium Room",
+    "By-Concern": "High Temperature Cooling",
+    "Budget-Range": "40k-60k",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Split",
+    "Machine-Brand": "Hitachi",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 7,
+    "name": "Panasonic Smart WiFi 1 Ton",
+    "category": "air-conditioner",
+    "By-Size": "Small Room",
+    "By-Concern": "Smart Features",
+    "Budget-Range": "30k-45k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Split",
+    "Machine-Brand": "Panasonic",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 8,
+    "name": "Godrej 2 Ton Inverter",
+    "category": "air-conditioner",
+    "By-Size": "Large Room",
+    "By-Concern": "Energy Saving",
+    "Budget-Range": "45k-60k",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Split",
+    "Machine-Brand": "Godrej",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 9,
+    "name": "Carrier Flexicool 1.5 Ton",
+    "category": "air-conditioner",
+    "By-Size": "Medium Room",
+    "By-Concern": "All of the above",
+    "Budget-Range": "35k-50k",
+    "Noise-Level": "Silent",
+    "Machine-Size": "Split",
+    "Machine-Brand": "Carrier",
+    "Warranty": "1 Year"
+  },
+  {
+    "id": 10,
+    "name": "Voltas Window Compact 1.5 Ton",
+    "category": "air-conditioner",
+    "By-Size": "Medium Room",
+    "By-Concern": "Budget",
+    "Budget-Range": "25k-35k",
+    "Noise-Level": "Moderate",
+    "Machine-Size": "Window",
+    "Machine-Brand": "Voltas",
+    "Warranty": "1 Year"
+  }
+]
