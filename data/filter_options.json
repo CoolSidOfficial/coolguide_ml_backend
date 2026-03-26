@@ -1,0 +1,29 @@
+{
+  "fridge": {
+    "Capacity": ["Single Door", "Double Door", "Side-by-Side", "Mini Fridge"],
+    "Family Size": ["1-2 People", "3-4 People", "5+ People"],
+    "Energy Rating": ["3 Star", "4 Star", "5 Star"],
+    "Freezer Type": ["Top Freezer", "Bottom Freezer", "Convertible", "No Preference"],
+    "Budget-Range": ["10k-20k", "20k-30k", "30k-50k", "50k+"],
+    "Machine-Brand": ["Samsung", "LG", "Whirlpool", "Godrej"],
+    "Warranty": ["1 Year", "2 Years", "5 Years", "Don't care"]
+  },
+  "air-conditioner": {
+    "Room Size": ["<120 sq ft", "120-180 sq ft", "180-300 sq ft", "300+ sq ft"],
+    "Type": ["Window", "Split", "Portable", "Inverter AC"],
+    "Energy Rating": ["3 Star", "4 Star", "5 Star"],
+    "Smart Features": ["WiFi Control", "Voice Control", "No Smart Features"],
+    "Budget-Range": ["20k-30k", "30k-50k", "50k+"],
+    "Machine-Brand": ["LG", "Samsung", "Voltas", "Daikin", "Panasonic"],
+    "Warranty": ["1 Year", "2 Years", "5 Years", "Don't care"]
+  },
+  "air-purifier": {
+    "By-Size": ["Small Room", "Medium Room", "Large Room", "Car/Portable"],
+    "By-Concern": ["Allergies", "Pet", "Pollution", "Smell", "All of the above"],
+    "Budget-Range": ["1k-4k", "4k-8k", "8k-16k", "16k+"],
+    "Noise-Level": ["Low", "Medium", "High"],
+    "Machine-Size": ["Compact", "Standard", "Large"],
+    "Machine-Brand": ["Philips", "Honeywell", "Xiaomi", "Mi", "Blueair"],
+    "Warranty": ["1 Year", "2 Years", "5 Years", "Don't care"]
+  }
+}

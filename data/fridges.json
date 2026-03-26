@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "LG 260 L 3 Star Frost Free Double Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "260 L",
+    "Type": "Double Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "LG",
+    "Warranty": "1 Year",
+    "Features": ["Frost Free", "Stabilizer Free"]
+  },
+  {
+    "id": 2,
+    "name": "Samsung 253 L 4 Star Frost Free Double Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "253 L",
+    "Type": "Double Door",
+    "Energy-Rating": "4 Star",
+    "Brand": "Samsung",
+    "Warranty": "2 Years",
+    "Features": ["Frost Free", "Digital Inverter Compressor"]
+  },
+  {
+    "id": 3,
+    "name": "Whirlpool 190 L 3 Star Direct Cool Single Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "190 L",
+    "Type": "Single Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "Whirlpool",
+    "Warranty": "1 Year",
+    "Features": ["Direct Cool", "IntelliSense Inverter"]
+  },
+  {
+    "id": 4,
+    "name": "Haier 320 L 4 Star Frost Free Side-by-Side Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "320 L",
+    "Type": "Side-by-Side",
+    "Energy-Rating": "4 Star",
+    "Brand": "Haier",
+    "Warranty": "2 Years",
+    "Features": ["Frost Free", "Multi Air Flow"]
+  },
+  {
+    "id": 5,
+    "name": "Godrej 185 L 3 Star Direct Cool Single Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "185 L",
+    "Type": "Single Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "Godrej",
+    "Warranty": "1 Year",
+    "Features": ["Direct Cool", "Toughened Glass Shelves"]
+  },
+  {
+    "id": 6,
+    "name": "Panasonic 275 L 4 Star Frost Free Double Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "275 L",
+    "Type": "Double Door",
+    "Energy-Rating": "4 Star",
+    "Brand": "Panasonic",
+    "Warranty": "1 Year",
+    "Features": ["Frost Free", "Anti-Bacterial"]
+  },
+  {
+    "id": 7,
+    "name": "LG 190 L 3 Star Single Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "190 L",
+    "Type": "Single Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "LG",
+    "Warranty": "1 Year",
+    "Features": ["Direct Cool", "Stabilizer Free"]
+  },
+  {
+    "id": 8,
+    "name": "Samsung 345 L 5 Star Frost Free Double Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "345 L",
+    "Type": "Double Door",
+    "Energy-Rating": "5 Star",
+    "Brand": "Samsung",
+    "Warranty": "2 Years",
+    "Features": ["Frost Free", "Digital Inverter Compressor", "Door Alarm"]
+  },
+  {
+    "id": 9,
+    "name": "Whirlpool 265 L 3 Star Frost Free Double Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "265 L",
+    "Type": "Double Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "Whirlpool",
+    "Warranty": "1 Year",
+    "Features": ["Frost Free", "IntelliSense Inverter"]
+  },
+  {
+    "id": 10,
+    "name": "Haier 200 L 3 Star Direct Cool Single Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "200 L",
+    "Type": "Single Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "Haier",
+    "Warranty": "1 Year",
+    "Features": ["Direct Cool", "Turbo Cooling"]
+  },
+  {
+    "id": 11,
+    "name": "Godrej 265 L 4 Star Frost Free Double Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "265 L",
+    "Type": "Double Door",
+    "Energy-Rating": "4 Star",
+    "Brand": "Godrej",
+    "Warranty": "2 Years",
+    "Features": ["Frost Free", "Smart Connect"]
+  },
+  {
+    "id": 12,
+    "name": "Panasonic 190 L 3 Star Single Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "190 L",
+    "Type": "Single Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "Panasonic",
+    "Warranty": "1 Year",
+    "Features": ["Direct Cool", "Anti-Bacterial"]
+  },
+  {
+    "id": 13,
+    "name": "LG 320 L 4 Star Frost Free Side-by-Side Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "320 L",
+    "Type": "Side-by-Side",
+    "Energy-Rating": "4 Star",
+    "Brand": "LG",
+    "Warranty": "2 Years",
+    "Features": ["Frost Free", "Smart Inverter Compressor"]
+  },
+  {
+    "id": 14,
+    "name": "Samsung 195 L 3 Star Single Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "195 L",
+    "Type": "Single Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "Samsung",
+    "Warranty": "1 Year",
+    "Features": ["Direct Cool", "Stabilizer Free"]
+  },
+  {
+    "id": 15,
+    "name": "Whirlpool 350 L 5 Star Frost Free Double Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "350 L",
+    "Type": "Double Door",
+    "Energy-Rating": "5 Star",
+    "Brand": "Whirlpool",
+    "Warranty": "2 Years",
+    "Features": ["Frost Free", "Inverter Compressor", "Door Alarm"]
+  },
+  {
+    "id": 16,
+    "name": "Haier 300 L 4 Star Frost Free Side-by-Side Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "300 L",
+    "Type": "Side-by-Side",
+    "Energy-Rating": "4 Star",
+    "Brand": "Haier",
+    "Warranty": "2 Years",
+    "Features": ["Frost Free", "Multi Air Flow", "LED Display"]
+  },
+  {
+    "id": 17,
+    "name": "Godrej 210 L 3 Star Direct Cool Single Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "210 L",
+    "Type": "Single Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "Godrej",
+    "Warranty": "1 Year",
+    "Features": ["Direct Cool", "Toughened Glass Shelves"]
+  },
+  {
+    "id": 18,
+    "name": "Panasonic 280 L 4 Star Frost Free Double Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "280 L",
+    "Type": "Double Door",
+    "Energy-Rating": "4 Star",
+    "Brand": "Panasonic",
+    "Warranty": "2 Years",
+    "Features": ["Frost Free", "Anti-Bacterial"]
+  },
+  {
+    "id": 19,
+    "name": "LG 185 L 3 Star Single Door Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "185 L",
+    "Type": "Single Door",
+    "Energy-Rating": "3 Star",
+    "Brand": "LG",
+    "Warranty": "1 Year",
+    "Features": ["Direct Cool", "Stabilizer Free"]
+  },
+  {
+    "id": 20,
+    "name": "Samsung 400 L 5 Star Frost Free Side-by-Side Refrigerator",
+    "Category": "Fridge",
+    "Capacity": "400 L",
+    "Type": "Side-by-Side",
+    "Energy-Rating": "5 Star",
+    "Brand": "Samsung",
+    "Warranty": "2 Years",
+    "Features": ["Frost Free", "Digital Inverter", "Smart Connect"]
+  }
+]

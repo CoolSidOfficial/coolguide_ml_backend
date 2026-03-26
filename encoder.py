@@ -1,79 +1,47 @@
 import json
 from sklearn.preprocessing import OneHotEncoder
 
+CATEGORY_FEATURES = {
+    "air-purifier": ["By-Size", "By-Concern", "Budget-Range", "Noise-Level", "Machine-Size", "Machine-Brand", "Warranty"],
+    "air-conditioner": ["Room Size", "Type", "Energy Rating", "Smart Features", "Budget-Range", "Machine-Brand", "Warranty"],
+    "fridge": ["Capacity", "Family Size", "Energy Rating", "Freezer Type", "Budget-Range", "Machine-Brand", "Warranty"]
+}
+
 class ProductEncoder:
-    def __init__(self, product_file, filter_options=None):
-        """
-        product_file: path to JSON file for products
-        filter_options: dict of all possible filter options for this category (from filterOptions)
-        """
+    def __init__(self, product_file, category):
         with open(product_file, "r") as f:
             self.products = json.load(f)
 
-        # Dynamically determine feature keys from first product
-        self.feature_keys = [
-            key for key in self.products[0].keys()
-            if key not in ["id", "name", "category"]
-        ]
+        self.feature_keys = CATEGORY_FEATURES[category]
 
-        self.filter_options = filter_options or {}
+        # Ensure every product has all keys
+        self.feature_data = []
+        for p in self.products:
+            row = []
+            for key in self.feature_keys:
+                value = p.get(key, "Unknown")
+                row.append(self.normalize(value, key))
+            self.feature_data.append(row)
 
-        # Normalize product data
-        self.feature_data = [
-            [self.normalize(product.get(key, "Unknown"), key) for key in self.feature_keys]
-            for product in self.products
-        ]
-
-        # ✅ Add one dummy row with all possible categories to prevent unknown errors
-        if self.filter_options:
-            dummy_row = [
-                # Take the first option for each feature, or "Unknown" if not available
-                next(iter(self.filter_options.get(key, ["Unknown"])), "Unknown")
-                for key in self.feature_keys
-            ]
-            self.feature_data.append(dummy_row)
-
-        # Create OneHotEncoder
-        self.encoder = OneHotEncoder(
-            sparse_output=False,
-            handle_unknown="ignore"
-        )
+        # Fit OneHotEncoder safely
+        self.encoder = OneHotEncoder(sparse_output=False, handle_unknown="ignore")
         self.encoder.fit(self.feature_data)
-
-        # Transform products
-        self.encoded_products = self.encoder.transform(self.feature_data[:-1])  # exclude dummy row
+        self.encoded_products = self.encoder.transform(self.feature_data)
 
     def normalize(self, value, key):
-        """
-        Apply normalization per feature.
-        Extend this method if you want category-specific mapping.
-        """
-        # Example normalization for By-Concern
-        if key == "By-Concern":
-            mapping = {
-                "Budget": "Budget",
-                "Low cost": "Budget",
-                "Cheap": "Budget",
-                "Affordable": "Budget",
-                "Premium": "Premium",
-                "Energy Saving": "Energy Saving"
-            }
-            return mapping.get(value, "Unknown")
-
-        # Other normalization rules can go here
-        # Example: Usage Type for laptops, Screen Size, etc.
-        # Currently default: return value or "Unknown"
-        return value if value is not None else "Unknown"
+        if value is None:
+            return "Unknown"
+        # Example normalization for budget-like categories
+        if "Budget" in key:
+            if str(value).lower() in ["low", "cheap", "affordable"]:
+                return "Budget"
+            elif str(value).lower() in ["premium", "high"]:
+                return "Premium"
+        return value
 
     def encode_user(self, user_filters):
-        """
-        Encode user filters safely, using "Unknown" for missing features.
-        """
-        user_row = [[
-            self.normalize(user_filters.get(key, "Unknown"), key)
-            for key in self.feature_keys
-        ]]
-        return self.encoder.transform(user_row)
+        row = [self.normalize(user_filters.get(k, "Unknown"), k) for k in self.feature_keys]
+        return self.encoder.transform([row])
 
     def get_products(self):
         return self.products
