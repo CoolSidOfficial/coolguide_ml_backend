@@ -25,7 +25,8 @@ CATEGORY_FILES = {
     "air-purifier": "data/air_purifiers.json",
     "air-conditioner": "data/air_conditioners.json",
     "fridge": "data/fridges.json",
-    "laptop": "data/laptops.json"
+    "laptop": "data/laptops.json",
+    "tv-(television)": "data/tv.json"
 
 }
 

@@ -16,6 +16,8 @@ CATEGORY_FEATURES = {
         "Storage Type",
         "Warranty"
     ],
+    "tv-(television)": ["Screen Size", "Display Type", "Smart Features", "Use Case", "Budget-Range", "Machine-Brand", "Warranty"]
+
 }
 
 class ProductEncoder:

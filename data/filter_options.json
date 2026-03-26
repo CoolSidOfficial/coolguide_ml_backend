@@ -38,5 +38,14 @@
       "Storage Type": ["SSD (Faster Performance)", "HDD (Cheaper / High Capacity)", "SSD + HDD Combo", "No Preference"],
       "Warranty": ["1 Year", "2 Years", "3+ Years", "Don't care"]
     
+  },
+  "tv-(television)": {
+    "Screen Size": ["32\"", "43\"", "55\"", "65\"+"],
+    "Display Type": ["LED", "OLED", "QLED", "4K UHD"],
+    "Smart Features": ["Smart TV", "Android TV", "Non-Smart"],
+    "Use Case": ["Living Room", "Bedroom", "Gaming", "All-Purpose"],
+    "Budget-Range": ["10k-20k", "20k-40k", "40k+"],
+    "Machine-Brand": ["Samsung", "LG", "Sony", "Mi", "OnePlus"],
+    "Warranty": ["1 Year", "2 Years", "Don't care"]
   }
 }
