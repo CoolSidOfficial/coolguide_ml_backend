@@ -24,9 +24,9 @@ recommenders = {}
 def get_recommender(category: str):
     if category not in recommenders:
         if category == "air-purifier":
-            recommenders[category] = Recommender(ProductEncoder("data/air_purifiers.json"))
+            recommenders[category] = Recommender(ProductEncoder("air_purifiers.json"))
         elif category == "air-conditioner":
-            recommenders[category] = Recommender(ProductEncoder("data/air_conditioners.json"))
+            recommenders[category] = Recommender(ProductEncoder("air_conditioners.json"))
     return recommenders.get(category)
 
 class FilterRequest(BaseModel):
