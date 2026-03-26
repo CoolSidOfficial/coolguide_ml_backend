@@ -25,5 +25,18 @@
     "Machine-Size": ["Compact", "Standard", "Large"],
     "Machine-Brand": ["Philips", "Honeywell", "Xiaomi", "Mi", "Blueair"],
     "Warranty": ["1 Year", "2 Years", "5 Years", "Don't care"]
+  },
+  "laptop": {
+
+      "Usage Type": ["Student / Basic Work", "Office / Professional", "Gaming", "Content Creation / Video Editing", "Light Travel / Portable Use"],
+      "Performance Level": ["Basic (Web, Docs, Videos)", "Medium (Multitasking, Office Apps)", "High (Gaming / Heavy Software)", "Professional (Video Editing, 3D Modeling)"],
+      "Battery Life Needed": ["<5 hours", "5-8 hours", "8-10 hours", "10+ hours"],
+      "Screen Preference": ["Compact / Portable (13-14\")", "Standard (15\")", "Large / Multi-tasking (16-17\")", "High Color Accuracy / Editing", "No Preference"],
+      "Budget-Range": ["30k-50k INR", "50k-80k INR", "80k-1.2L INR", "1.2L+ INR"],
+      "Brand Preference": ["Apple", "Dell", "HP", "Asus", "Lenovo", "MSI", "Acer", "Razer"],
+      "Portability": ["Very Portable (<1.5kg)", "Moderate (1.5-2.5kg)", "Heavy / Desktop Replacement"],
+      "Storage Type": ["SSD (Faster Performance)", "HDD (Cheaper / High Capacity)", "SSD + HDD Combo", "No Preference"],
+      "Warranty": ["1 Year", "2 Years", "3+ Years", "Don't care"]
+    
   }
 }

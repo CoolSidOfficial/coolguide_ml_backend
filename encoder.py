@@ -4,7 +4,18 @@ from sklearn.preprocessing import OneHotEncoder
 CATEGORY_FEATURES = {
     "air-purifier": ["By-Size", "By-Concern", "Budget-Range", "Noise-Level", "Machine-Size", "Machine-Brand", "Warranty"],
     "air-conditioner": ["Room Size", "Type", "Energy Rating", "Smart Features", "Budget-Range", "Machine-Brand", "Warranty"],
-    "fridge": ["Capacity", "Family Size", "Energy Rating", "Freezer Type", "Budget-Range", "Machine-Brand", "Warranty"]
+    "fridge": ["Capacity", "Family Size", "Energy Rating", "Freezer Type", "Budget-Range", "Machine-Brand", "Warranty"],
+    "laptop": [
+        "Usage Type",
+        "Performance Level",
+        "Battery Life Needed",
+        "Screen Preference",
+        "Budget-Range",
+        "Brand Preference",
+        "Portability",
+        "Storage Type",
+        "Warranty"
+    ],
 }
 
 class ProductEncoder:
