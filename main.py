@@ -26,16 +26,17 @@ CATEGORY_FILES = {
     "air-conditioner": "data/air_conditioners.json",
     "fridge": "data/fridges.json",
     "laptop": "data/laptops.json",
-    "tv-(television)": "data/tv.json"
+    "tv-(television)": "data/tv.json",
+    "printer": "data/printers.json",
+    "drones": "data/drones.json"
+  
 
 }
 
-# ✅ Load recommenders (encoders) for all categories
 recommenders = {}
 for category, file in CATEGORY_FILES.items():
     recommenders[category] = ProductEncoder(file, category=category)
 
-# ✅ Request schema
 class FilterRequest(BaseModel):
     category: str
     filters: Dict[str, Any]

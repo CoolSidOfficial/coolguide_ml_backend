@@ -47,5 +47,17 @@
     "Budget-Range": ["10k-20k", "20k-40k", "40k+"],
     "Machine-Brand": ["Samsung", "LG", "Sony", "Mi", "OnePlus"],
     "Warranty": ["1 Year", "2 Years", "Don't care"]
+  },
+
+  "drones": {
+    "options": {
+      "Use Case": ["Photography", "Videography", "Recreational", "Industrial"],
+      "Camera Quality": ["720p", "1080p", "4K", "No Camera"],
+      "Flight Time": ["<10 mins", "10-20 mins", "20+ mins"],
+      "Range": ["<500m", "500m-1km", "1km+"],
+      "Budget-Range": ["5k-15k", "15k-40k", "40k+"],
+      "Machine-Brand": ["DJI", "Parrot", "Ryze", "Autel"],
+      "Warranty": ["1 Year", "2 Years", "Don't care"]
+    }
   }
 }

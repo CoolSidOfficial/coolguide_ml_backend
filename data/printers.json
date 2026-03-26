@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "Inkjet",
+    "Print Speed": "10-20 ppm",
+    "Connectivity": "WiFi",
+    "Duplex Printing": "Yes",
+    "Color Printing": "Color",
+    "Budget-Range": "5k-10k",
+    "Machine-Brand": "HP",
+    "Warranty": "1 Year"
+  },
+  {
+    "Type": "Laser",
+    "Print Speed": "20-30 ppm",
+    "Connectivity": "Ethernet",
+    "Duplex Printing": "No",
+    "Color Printing": "Black & White",
+    "Budget-Range": "10k-20k",
+    "Machine-Brand": "Canon",
+    "Warranty": "2 Years"
+  },
+  {
+    "Type": "All-in-One",
+    "Print Speed": "10-20 ppm",
+    "Connectivity": "USB",
+    "Duplex Printing": "Yes",
+    "Color Printing": "Color",
+    "Budget-Range": "10k-20k",
+    "Machine-Brand": "Epson",
+    "Warranty": "1 Year"
+  },
+  {
+    "Type": "Photo Printer",
+    "Print Speed": "<10 ppm",
+    "Connectivity": "WiFi",
+    "Duplex Printing": "No",
+    "Color Printing": "Color",
+    "Budget-Range": "20k-30k",
+    "Machine-Brand": "Brother",
+    "Warranty": "2 Years"
+  },
+  {
+    "Type": "Laser",
+    "Print Speed": "30+ ppm",
+    "Connectivity": "USB",
+    "Duplex Printing": "Yes",
+    "Color Printing": "Black & White",
+    "Budget-Range": "30k+",
+    "Machine-Brand": "Samsung",
+    "Warranty": "3+ Years"
+  }
+]

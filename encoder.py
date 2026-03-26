@@ -16,7 +16,10 @@ CATEGORY_FEATURES = {
         "Storage Type",
         "Warranty"
     ],
-    "tv-(television)": ["Screen Size", "Display Type", "Smart Features", "Use Case", "Budget-Range", "Machine-Brand", "Warranty"]
+    "tv-(television)": ["Screen Size", "Display Type", "Smart Features", "Use Case", "Budget-Range", "Machine-Brand", "Warranty"],
+    "printer": ["Type", "Print Speed", "Connectivity", "Duplex Printing", "Color Printing", "Budget-Range", "Machine-Brand", "Warranty"],
+    "drones": ["Use Case", "Camera Quality", "Flight Time", "Range", "Budget-Range", "Machine-Brand", "Warranty"]
+
 
 }
 
